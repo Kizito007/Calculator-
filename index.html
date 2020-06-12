@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Basic Calculator</h1>
+        <input type="text" type="submit" class="disp" placeholder="0">
+    <div class="operands">
+        <div class="sent" onclick="myFunction(event)">
+            <input type="submit" value="7">
+            <input type="submit" value="8">
+            <input type="submit" value="9">
+            <input type="submit" value="*">
+        </div>
+        <hr>
+        <div class="ffss" onclick="myFunction(event)">
+            <input type="submit" value="4">
+            <input type="submit" value="5">
+            <input type="submit" value="6">
+            <input type="submit" value="/">
+        </div>
+        <hr>
+        <div class="ottp" onclick="myFunction(event)">
+            <input type="submit" value="1">
+            <input type="submit" value="2">
+            <input type="submit" value="3">
+            <input type="submit" value="+">
+        </div>
+        <hr>
+        <div id="and">
+            <input type="submit" value="CE" class="clr">
+            <input type="submit" value="0" class="zero">
+            <input type="submit" value="00" class="d_zero">
+            <input type="submit" value="=" class="equ">
+        </div>
+        <hr>
+        <div class="dm" onclick="myFunction(event)">
+            <input type="submit" value="." class="point">
+            <input type="submit" value="-">           
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            &copy; 2019. Kizito 
+        </p>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

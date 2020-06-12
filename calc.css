@@ -1,0 +1,133 @@
+body {
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    color: grey;
+    margin: 10px;
+}
+hr{
+    width: 180px;
+}
+.disp{
+    border: 2px solid blue;
+    width: 80%;
+    text-align: right;
+    margin: 25px 30px ;
+    border-radius: 50px;
+    padding-right: 1%;
+    font-size: 40px;
+}
+.operands{
+    border: 2px lightsteelblue;
+    padding: 20px;
+    margin: inherit;
+    border-style: dashed;
+    border-radius: 200px;
+}
+.sent input{
+    color: black;
+    width: 2px;
+    margin-top: 5px;
+    height: 15px;
+    border-radius: 14px;
+    border: solid silver 1px;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 1px;
+}
+.ffss input{
+    color: black;
+    width: 2px;
+    margin-top: 5px;
+    height: 15px;
+    border-radius: 14px;
+    border: solid silver 1px;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 1px;
+}
+.ottp input{
+    color: black;
+    width: 2px;
+    margin-top: 5px;
+    height: 15px;
+    border-radius: 14px;
+    border: solid silver 1px;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 1px;
+}
+.dm input{
+    color: black;
+    width: 2px;
+    margin-top: 5px;
+    height: 15px;
+    border-radius: 14px;
+    border: solid silver 1px;
+    font-size: 0.9em;
+    padding: 20px;
+    margin-right: 1px;
+}
+.equals input{
+    color: black;
+    width: 2px;
+    margin-top: 5px;
+    height: 15px;
+    border-radius: 14px;
+    border: solid silver 1px;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 1px;
+}
+p{
+    font-style: italic;
+    color: green;
+}
+.clr{
+    background-color: crimson;
+    color: white;
+}
+.sent input:hover{
+    background-color: black;
+    color: white;
+}
+.ffss input:hover{
+    background-color: black;
+    color: white;
+}
+.ottp input:hover{
+    background-color: black;
+    color: white;
+}
+.dm input:hover{
+    background-color: black;
+    color: white;
+}
+#and input:hover{
+    background-color: black;
+    color: white;
+}
+.clr:hover{
+    background-color: brown;
+}
+.equ{
+    background-color: darkgreen;
+    color: rgb(220, 226, 205);
+}
+.equ:hover{
+    background-color: limegreen;
+    color: darkgreen;
+}
+#and input {
+    color: black;
+    width: 2px;
+    margin-top: 5px;
+    height: 15px;
+    border-radius: 14px;
+    border: solid silver 1px;
+    font-size: 0.9em;
+    padding: 20px;
+    margin-right: 1px;
+}
